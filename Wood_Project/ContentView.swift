@@ -13,11 +13,12 @@ struct ContentView: View {
             Text("Hello, world!")
                 .padding()
                 .cornerRadius(3)
-            
+             
                 
             
         }
-            
+        .padding()
+            Text(" Hi there")
     }
 }
 
