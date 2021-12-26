@@ -14,12 +14,14 @@ struct ContentView: View {
                 .padding()
                 .cornerRadius(3)
              
-                
-            
         }
-        .padding()
-            Text(" Hi there")
-    }
+        Text("Hello, world!")
+            .padding()
+            .cornerRadius(3)
+        
+            }
+       
+            
 }
 
 struct ContentView_Previews: PreviewProvider {
